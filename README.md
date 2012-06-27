@@ -2,7 +2,7 @@
 
 ## Description
 
-An ultra-minimalistic jQuery spinputinner plugin driven by keybindings.
+An ultra-minimalistic jQuery spinner plugin driven by keybindings.
 
 ### Usage
 	$('input.spinput').spinput({
