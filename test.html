@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>jQuery.spinput Demo</title>
+  </head>
+  <body>
+    <div>
+      <input type="text" value="0" data-spinput=true />
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="jquery.spinput.js"></script>
+    <script>
+      $(function() {
+        $('input[data-spinput=true]').spinput({
+          step: 2,
+          max: 10,
+          min: -10
+        });
+      });
+    </script>
+  </body>
+</html>
+
