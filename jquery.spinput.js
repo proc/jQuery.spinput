@@ -51,7 +51,7 @@
       this.counter = this.clean(this.element.val()) + this.settings.step;
 
       if(this.settings.max && (this.counter >= this.settings.max)) {
-        this.counter = this.settings.max
+        this.counter = this.settings.max;
       }
       this.update('increment');
     };
@@ -64,7 +64,7 @@
       this.counter = this.clean(this.element.val()) - this.settings.step;
 
       if(this.settings.min && (this.counter <= this.settings.min)) {
-        this.counter = this.settings.min
+        this.counter = this.settings.min;
       }
       this.update('decrement');
     };
